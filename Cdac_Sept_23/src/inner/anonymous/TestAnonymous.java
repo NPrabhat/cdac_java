@@ -13,7 +13,6 @@ class OuterOfAnonymous{
             System.out.println("Say Namaste");
         }
     }
-    
 }
 
 public class TestAnonymous {
