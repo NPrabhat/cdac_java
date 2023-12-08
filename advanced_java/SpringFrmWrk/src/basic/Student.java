@@ -1,9 +1,23 @@
 package basic;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Student {
     private int sId;
     private String sName;
     
     private Address address;
+
+    @Autowired
+    public Student() {
+    }
+
+    
+    
+    public Student(Address address) {
+        this.address = address;
+    }
+    
     
     
     public void setsId(int sId) {
